@@ -9,7 +9,6 @@ while i < int(n):
         prime_numbers.append(i)
     poss_primes.clear()
     i += 1
-#print(prime_numbers)
 f = open('primes.txt', 'w+')
 for prime in prime_numbers:
      f.write(str(prime) + '\r\t')
