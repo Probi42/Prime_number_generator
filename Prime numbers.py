@@ -12,7 +12,7 @@ while i < int(n):
 #print(prime_numbers)
 f = open('primes.txt', 'w+')
 for prime in prime_numbers:
-     f.write(str(prime) + '\n')
+     f.write(str(prime) + '\r\t')
 f.close()
 import os
 file = 'primes.txt'
